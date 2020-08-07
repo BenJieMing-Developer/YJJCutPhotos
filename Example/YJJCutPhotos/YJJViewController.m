@@ -131,6 +131,7 @@
         
         CGRect rect = CGRectMake((self.view.bounds.size.width - 300)/2.f, 100, 300, 300);
         _cutImageView.cutRect = rect;
+      
         _cutImageView.originalImage = [UIImage imageNamed:@"yang"];
     }
     

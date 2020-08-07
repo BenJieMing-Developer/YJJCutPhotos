@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1712BDFC2108A2EC49E074541936E1F4 /* YJJCutImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 497FA441C8CF72604EB332F65034A76A /* YJJCutImageView.m */; };
-		24BF30614AA35C9F2B269442F86AA960 /* YJJCutImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A494968CE36D7233C5525A9A73FB6234 /* YJJCutImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC8D4863375C9B1485FED6184A34FE8 /* YJJCutImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = C1ADF862147CD706AC82680FEC1C6E51 /* YJJCutImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3846D04B7CB02EE6B2ACE8F992C56588 /* YJJCutPhotos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C32404796F8914EDB42B8354A8B4202 /* YJJCutPhotos.bundle */; };
 		3A21103AC718A0FD8090D11B588DE387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
+		3AE9CFC027F65499B7A14272C1349473 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
+		47ABBB2917FC55C81436F3B6188AF68F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
 		51BDDBEECA3EEEAC59DB7BD206D167B5 /* Pods-YJJCutPhotos_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A826E047C052731C25515C9722D5D8 /* Pods-YJJCutPhotos_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BAE4624E681DC127952E1A14AC5B1D8 /* YJJCutPhotos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6CE0CF4C1EDCA307925D6BBA13822E /* YJJCutPhotos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F349C3F5CC66C32E31F7797EE011369 /* YJJCutPhotos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169674D039CBC1E6DF35A1EF740CB9A8 /* YJJCutPhotos-dummy.m */; };
+		5B759EAB147C4B0A0D0B88DFC56D2432 /* YJJCutPhotos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12312BA480B483127C7E36020B67E28D /* YJJCutPhotos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8370E89A4F1B0A6FFA8BEBA1130264DB /* YJJCutImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19293E15BCE0C5F4ADF7CA95638B060D /* YJJCutImageView.m */; };
 		97FFC0746034AEC51210776E35BEA473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
-		9DEA3FDE84A6D3A6C176767190E21820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
-		B6220591BD389CE6689A6B0B8AEF5E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */; };
-		BA03645E8F8E588BDACE924C7AF6E31A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
+		9C2F7C27ED8FD1E38B6A017F9514D44F /* YJJCutPhotos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE101D806AAEBBD5809B037099053DD /* YJJCutPhotos-dummy.m */; };
+		D38C7529ED12897F1CE90B5A7C690852 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BF1A8C698C6624226486F8D8B38A9C /* Images.xcassets */; };
 		D48E2196E55918AF56BD50D66A95B8D7 /* Pods-YJJCutPhotos_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC60A9D229AD3EB46EA8A37D250CB74B /* Pods-YJJCutPhotos_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFCA0F5C51D71EF98B06ABF4FE4F55D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */; };
 		ED10AF3A9BB5DC33DA31BDCAAB18B3A2 /* Pods-YJJCutPhotos_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 196622AF69A95A0706FE2E00DFF3E7EE /* Pods-YJJCutPhotos_Tests-dummy.m */; };
 		FDB10F9ED195DEDD5A2CBC187A60F188 /* Pods-YJJCutPhotos_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1275E56F6E689C61EF1C2A6B237AF65F /* Pods-YJJCutPhotos_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,13 @@
 			remoteGlobalIDString = 705175D554F685C195A55DD346035DC1;
 			remoteInfo = "Pods-YJJCutPhotos_Example";
 		};
+		352E77DCF1AEE20EEC184C75B468C952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F367FF303C2FFF3AFBF1DFAE847DA3;
+			remoteInfo = "YJJCutPhotos-YJJCutPhotos";
+		};
 		F0661035D4BC3A313B5AE8FB8E7DC6CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -41,37 +50,40 @@
 
 /* Begin PBXFileReference section */
 		0397EBB5BE3FB026887E4674B5DB5BA4 /* Pods-YJJCutPhotos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJJCutPhotos_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		087F59CD4D686083BFD383F621A9819E /* YJJCutPhotos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJJCutPhotos-prefix.pch"; sourceTree = "<group>"; };
-		08845AC0794A4C94D883AB7CE353FD81 /* YJJCutPhotos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJJCutPhotos-Info.plist"; sourceTree = "<group>"; };
 		08F39B034807FED05E3F8D66CE96B2E4 /* Pods-YJJCutPhotos_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJJCutPhotos_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0F6CE0CF4C1EDCA307925D6BBA13822E /* YJJCutPhotos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJJCutPhotos-umbrella.h"; sourceTree = "<group>"; };
+		12312BA480B483127C7E36020B67E28D /* YJJCutPhotos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJJCutPhotos-umbrella.h"; sourceTree = "<group>"; };
 		1275E56F6E689C61EF1C2A6B237AF65F /* Pods-YJJCutPhotos_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJJCutPhotos_Example-dummy.m"; sourceTree = "<group>"; };
 		16315D9201538786EF01D4B81DB00CED /* Pods-YJJCutPhotos_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJJCutPhotos_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		169674D039CBC1E6DF35A1EF740CB9A8 /* YJJCutPhotos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJJCutPhotos-dummy.m"; sourceTree = "<group>"; };
+		19293E15BCE0C5F4ADF7CA95638B060D /* YJJCutImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJJCutImageView.m; path = YJJCutPhotos/Classes/YJJCutImageView.m; sourceTree = "<group>"; };
 		196622AF69A95A0706FE2E00DFF3E7EE /* Pods-YJJCutPhotos_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJJCutPhotos_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DE101D806AAEBBD5809B037099053DD /* YJJCutPhotos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJJCutPhotos-dummy.m"; sourceTree = "<group>"; };
 		31B15E3F2E0C5E330B0B5E734DD219FC /* Pods-YJJCutPhotos_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJJCutPhotos_Example.modulemap"; sourceTree = "<group>"; };
 		3D4643546936525942404F46F1F91EA5 /* Pods-YJJCutPhotos_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJJCutPhotos_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3E057991C3DE185070532B334922044C /* Pods-YJJCutPhotos_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJJCutPhotos_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		410DC66382CF94B61B55731617EF86B4 /* ResourceBundle-YJJCutPhotos-YJJCutPhotos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YJJCutPhotos-YJJCutPhotos-Info.plist"; sourceTree = "<group>"; };
 		4118FA1567697F4B4D7202B08CCC9B9B /* Pods-YJJCutPhotos_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJJCutPhotos_Tests-Info.plist"; sourceTree = "<group>"; };
-		497FA441C8CF72604EB332F65034A76A /* YJJCutImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJJCutImageView.m; path = YJJCutPhotos/Classes/YJJCutImageView.m; sourceTree = "<group>"; };
 		50CA194F422F7FD3B4380C9CC3BD18D4 /* Pods-YJJCutPhotos_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJJCutPhotos_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		52F25F5D1D68B902F4B5221CF7A24AAA /* Pods-YJJCutPhotos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJJCutPhotos_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C32404796F8914EDB42B8354A8B4202 /* YJJCutPhotos.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YJJCutPhotos.bundle; path = "YJJCutPhotos-YJJCutPhotos.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E308AB2ECE205EB79580B35442FEE6B /* Pods-YJJCutPhotos_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJJCutPhotos_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F66643FE08F661B29D68D8DD29DC199 /* YJJCutPhotos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJJCutPhotos-prefix.pch"; sourceTree = "<group>"; };
 		72A826E047C052731C25515C9722D5D8 /* Pods-YJJCutPhotos_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJJCutPhotos_Example-umbrella.h"; sourceTree = "<group>"; };
-		828D954F47332AE63067F7C92AFDECD4 /* YJJCutPhotos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJJCutPhotos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		90002CFBB86F26DBC5B46531477B8010 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		72BF1A8C698C6624226486F8D8B38A9C /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YJJCutPhotos/Assets/Images.xcassets; sourceTree = "<group>"; };
+		72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJJCutPhotos.xcconfig; sourceTree = "<group>"; };
 		9694DDB80BE5BC64BD53E9E1B174DA60 /* Pods-YJJCutPhotos_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJJCutPhotos_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EBD2AD98ECC49D75BA118EFE56DCAB3 /* Pods_YJJCutPhotos_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJJCutPhotos_Tests.framework; path = "Pods-YJJCutPhotos_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A494968CE36D7233C5525A9A73FB6234 /* YJJCutImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJJCutImageView.h; path = YJJCutPhotos/Classes/YJJCutImageView.h; sourceTree = "<group>"; };
+		A5946F051EEE9B6857872B34511CE04F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AC60A9D229AD3EB46EA8A37D250CB74B /* Pods-YJJCutPhotos_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJJCutPhotos_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ACB3CBC2CD3B3A251716C5DB28CD165E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BA1567F9B8011AB7BDE9B60B577D2DBE /* YJJCutPhotos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJJCutPhotos.modulemap; sourceTree = "<group>"; };
+		C1ADF862147CD706AC82680FEC1C6E51 /* YJJCutImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJJCutImageView.h; path = YJJCutPhotos/Classes/YJJCutImageView.h; sourceTree = "<group>"; };
+		D049A848A0970052E098FE9D416041C6 /* YJJCutPhotos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJJCutPhotos.modulemap; sourceTree = "<group>"; };
+		D1DAD9DC51EA0A51B03A857066D0CF94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D683F3580096EBE6432D920D33CAB952 /* Pods-YJJCutPhotos_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJJCutPhotos_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D719AD7A28696A024C86391A5EC55B96 /* YJJCutPhotos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJJCutPhotos.xcconfig; sourceTree = "<group>"; };
+		DA2BE4752304D60A8CCC18C6035D6A01 /* YJJCutPhotos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJJCutPhotos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC25BB9E7F3292A3B4CCCF1B9BCA18BD /* YJJCutPhotos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJJCutPhotos-Info.plist"; sourceTree = "<group>"; };
 		E69C651234DC1939950C229B02D52A20 /* Pods-YJJCutPhotos_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJJCutPhotos_Example-Info.plist"; sourceTree = "<group>"; };
 		EEDEF5F613AFD5BCBD4DA39854E40DD0 /* Pods_YJJCutPhotos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJJCutPhotos_Example.framework; path = "Pods-YJJCutPhotos_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1A505499241392B67C3DA12A51E056 /* YJJCutPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJJCutPhotos.framework; path = YJJCutPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		607C689BCB133FBD7AF96E0CAA8777EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70DDF1F83A799E70298EF6E8DF568F6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,13 +113,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDE01C4463C2582F6DA735BF73AF1CE5 /* Frameworks */ = {
+		BF89B1154511E30C8B8A2AEAFD146FDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DEA3FDE84A6D3A6C176767190E21820 /* Foundation.framework in Frameworks */,
-				BA03645E8F8E588BDACE924C7AF6E31A /* MapKit.framework in Frameworks */,
-				B6220591BD389CE6689A6B0B8AEF5E87 /* UIKit.framework in Frameworks */,
+				47ABBB2917FC55C81436F3B6188AF68F /* Foundation.framework in Frameworks */,
+				3AE9CFC027F65499B7A14272C1349473 /* MapKit.framework in Frameworks */,
+				DCFCA0F5C51D71EF98B06ABF4FE4F55D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,16 +132,6 @@
 				AC90E5EBC833FCBC57C4D2FD1986197C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		06B140BFFAD3AA8871C8E34972CD9D46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EEDEF5F613AFD5BCBD4DA39854E40DD0 /* Pods_YJJCutPhotos_Example.framework */,
-				9EBD2AD98ECC49D75BA118EFE56DCAB3 /* Pods_YJJCutPhotos_Tests.framework */,
-				FC1A505499241392B67C3DA12A51E056 /* YJJCutPhotos.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2D941F036CD997A0DE25BB2D3DE0029C /* Pods-YJJCutPhotos_Tests */ = {
@@ -141,28 +150,43 @@
 			path = "Target Support Files/Pods-YJJCutPhotos_Tests";
 			sourceTree = "<group>";
 		};
-		48C5A3A482A0353E24928EC868ECFF1D /* Pod */ = {
+		69AF5E867288CC2A20D89D8E9BC7EFE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90002CFBB86F26DBC5B46531477B8010 /* LICENSE */,
-				ACB3CBC2CD3B3A251716C5DB28CD165E /* README.md */,
-				828D954F47332AE63067F7C92AFDECD4 /* YJJCutPhotos.podspec */,
+				EEDEF5F613AFD5BCBD4DA39854E40DD0 /* Pods_YJJCutPhotos_Example.framework */,
+				9EBD2AD98ECC49D75BA118EFE56DCAB3 /* Pods_YJJCutPhotos_Tests.framework */,
+				6C32404796F8914EDB42B8354A8B4202 /* YJJCutPhotos.bundle */,
+				FC1A505499241392B67C3DA12A51E056 /* YJJCutPhotos.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		869A28A6406750C237110AFB49592B6F /* Support Files */ = {
+		72B9DDB54E0EE0F31B2DE43F5332EA4F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA1567F9B8011AB7BDE9B60B577D2DBE /* YJJCutPhotos.modulemap */,
-				D719AD7A28696A024C86391A5EC55B96 /* YJJCutPhotos.xcconfig */,
-				169674D039CBC1E6DF35A1EF740CB9A8 /* YJJCutPhotos-dummy.m */,
-				08845AC0794A4C94D883AB7CE353FD81 /* YJJCutPhotos-Info.plist */,
-				087F59CD4D686083BFD383F621A9819E /* YJJCutPhotos-prefix.pch */,
-				0F6CE0CF4C1EDCA307925D6BBA13822E /* YJJCutPhotos-umbrella.h */,
+				410DC66382CF94B61B55731617EF86B4 /* ResourceBundle-YJJCutPhotos-YJJCutPhotos-Info.plist */,
+				D049A848A0970052E098FE9D416041C6 /* YJJCutPhotos.modulemap */,
+				72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */,
+				1DE101D806AAEBBD5809B037099053DD /* YJJCutPhotos-dummy.m */,
+				DC25BB9E7F3292A3B4CCCF1B9BCA18BD /* YJJCutPhotos-Info.plist */,
+				6F66643FE08F661B29D68D8DD29DC199 /* YJJCutPhotos-prefix.pch */,
+				12312BA480B483127C7E36020B67E28D /* YJJCutPhotos-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YJJCutPhotos";
+			sourceTree = "<group>";
+		};
+		874258E57871BB137370AC1704CE0BCF /* YJJCutPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADF862147CD706AC82680FEC1C6E51 /* YJJCutImageView.h */,
+				19293E15BCE0C5F4ADF7CA95638B060D /* YJJCutImageView.m */,
+				FCD5EDF79032BA24EC32C2C7CBF55908 /* Pod */,
+				E35DF091A3F29E4D811C90EA0D696F2E /* Resources */,
+				72B9DDB54E0EE0F31B2DE43F5332EA4F /* Support Files */,
+			);
+			name = YJJCutPhotos;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9565372283B5CAB46E3FF8AB681D95C5 /* Targets Support Files */ = {
@@ -184,25 +208,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C4ADD8BB0B9662A7BC79C042464A8658 /* YJJCutPhotos */ = {
-			isa = PBXGroup;
-			children = (
-				A494968CE36D7233C5525A9A73FB6234 /* YJJCutImageView.h */,
-				497FA441C8CF72604EB332F65034A76A /* YJJCutImageView.m */,
-				48C5A3A482A0353E24928EC868ECFF1D /* Pod */,
-				869A28A6406750C237110AFB49592B6F /* Support Files */,
-			);
-			name = YJJCutPhotos;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E8E77CA389656F47F5D64F899D713847 /* Development Pods */,
+				E0B444C3680B0EFA74CF2510C7833451 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				06B140BFFAD3AA8871C8E34972CD9D46 /* Products */,
+				69AF5E867288CC2A20D89D8E9BC7EFE2 /* Products */,
 				9565372283B5CAB46E3FF8AB681D95C5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -224,12 +236,30 @@
 			path = "Target Support Files/Pods-YJJCutPhotos_Example";
 			sourceTree = "<group>";
 		};
-		E8E77CA389656F47F5D64F899D713847 /* Development Pods */ = {
+		E0B444C3680B0EFA74CF2510C7833451 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4ADD8BB0B9662A7BC79C042464A8658 /* YJJCutPhotos */,
+				874258E57871BB137370AC1704CE0BCF /* YJJCutPhotos */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E35DF091A3F29E4D811C90EA0D696F2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72BF1A8C698C6624226486F8D8B38A9C /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FCD5EDF79032BA24EC32C2C7CBF55908 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5946F051EEE9B6857872B34511CE04F /* LICENSE */,
+				D1DAD9DC51EA0A51B03A857066D0CF94 /* README.md */,
+				DA2BE4752304D60A8CCC18C6035D6A01 /* YJJCutPhotos.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,12 +273,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A570338D2148503A38936582F19186 /* Headers */ = {
+		36476009B13F7768A45E171620C00820 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BF30614AA35C9F2B269442F86AA960 /* YJJCutImageView.h in Headers */,
-				7BAE4624E681DC127952E1A14AC5B1D8 /* YJJCutPhotos-umbrella.h in Headers */,
+				0FC8D4863375C9B1485FED6184A34FE8 /* YJJCutImageView.h in Headers */,
+				5B759EAB147C4B0A0D0B88DFC56D2432 /* YJJCutPhotos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +293,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		07F367FF303C2FFF3AFBF1DFAE847DA3 /* YJJCutPhotos-YJJCutPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8852B32E9F0380278294F554FFAC3A2 /* Build configuration list for PBXNativeTarget "YJJCutPhotos-YJJCutPhotos" */;
+			buildPhases = (
+				5F2D008AE6A06AB030028CFBB7CA292A /* Sources */,
+				607C689BCB133FBD7AF96E0CAA8777EC /* Frameworks */,
+				AB245958CC7B0F39F5F3400B7854219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YJJCutPhotos-YJJCutPhotos";
+			productName = "YJJCutPhotos-YJJCutPhotos";
+			productReference = 6C32404796F8914EDB42B8354A8B4202 /* YJJCutPhotos.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		705175D554F685C195A55DD346035DC1 /* Pods-YJJCutPhotos_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D6FD0124C7271512E5B3B5959285B4 /* Build configuration list for PBXNativeTarget "Pods-YJJCutPhotos_Example" */;
@@ -303,16 +350,17 @@
 		};
 		D16AEA83E6B1E393F6918D7F7C13336A /* YJJCutPhotos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF78B78FB59BDE540D04A9911ADC851A /* Build configuration list for PBXNativeTarget "YJJCutPhotos" */;
+			buildConfigurationList = F710AD5950CB02D3BCAC300851C8B5EE /* Build configuration list for PBXNativeTarget "YJJCutPhotos" */;
 			buildPhases = (
-				55A570338D2148503A38936582F19186 /* Headers */,
-				57CF4567EBB360672637F876A91D8428 /* Sources */,
-				DDE01C4463C2582F6DA735BF73AF1CE5 /* Frameworks */,
-				CED9B0018DE82587F4B2954C5BEE7847 /* Resources */,
+				36476009B13F7768A45E171620C00820 /* Headers */,
+				4DA0366C3335B6506E1D323DC7EEF7B8 /* Sources */,
+				BF89B1154511E30C8B8A2AEAFD146FDD /* Frameworks */,
+				699F582B45BF7CE0A2CEE0AFE2451112 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				546F5710E18D9E20714A01536D580A12 /* PBXTargetDependency */,
 			);
 			name = YJJCutPhotos;
 			productName = YJJCutPhotos;
@@ -337,13 +385,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 06B140BFFAD3AA8871C8E34972CD9D46 /* Products */;
+			productRefGroup = 69AF5E867288CC2A20D89D8E9BC7EFE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				705175D554F685C195A55DD346035DC1 /* Pods-YJJCutPhotos_Example */,
 				AA19291B929FBCF65883D3A0F777A291 /* Pods-YJJCutPhotos_Tests */,
 				D16AEA83E6B1E393F6918D7F7C13336A /* YJJCutPhotos */,
+				07F367FF303C2FFF3AFBF1DFAE847DA3 /* YJJCutPhotos-YJJCutPhotos */,
 			);
 		};
 /* End PBXProject section */
@@ -356,6 +405,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		699F582B45BF7CE0A2CEE0AFE2451112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3846D04B7CB02EE6B2ACE8F992C56588 /* YJJCutPhotos.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75151C247F71A5EC58B5C40AB517166E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,10 +420,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED9B0018DE82587F4B2954C5BEE7847 /* Resources */ = {
+		AB245958CC7B0F39F5F3400B7854219F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38C7529ED12897F1CE90B5A7C690852 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +447,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57CF4567EBB360672637F876A91D8428 /* Sources */ = {
+		4DA0366C3335B6506E1D323DC7EEF7B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1712BDFC2108A2EC49E074541936E1F4 /* YJJCutImageView.m in Sources */,
-				8F349C3F5CC66C32E31F7797EE011369 /* YJJCutPhotos-dummy.m in Sources */,
+				8370E89A4F1B0A6FFA8BEBA1130264DB /* YJJCutImageView.m in Sources */,
+				9C2F7C27ED8FD1E38B6A017F9514D44F /* YJJCutPhotos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2D008AE6A06AB030028CFBB7CA292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +471,12 @@
 			name = "Pods-YJJCutPhotos_Example";
 			target = 705175D554F685C195A55DD346035DC1 /* Pods-YJJCutPhotos_Example */;
 			targetProxy = 2E517B643B9D19578B8AB789AFCC7EE8 /* PBXContainerItemProxy */;
+		};
+		546F5710E18D9E20714A01536D580A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YJJCutPhotos-YJJCutPhotos";
+			target = 07F367FF303C2FFF3AFBF1DFAE847DA3 /* YJJCutPhotos-YJJCutPhotos */;
+			targetProxy = 352E77DCF1AEE20EEC184C75B468C952 /* PBXContainerItemProxy */;
 		};
 		CF7D12657C3CD266B331E1A5FAC68AC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -449,6 +520,37 @@
 			};
 			name = Debug;
 		};
+		036094688721B6FAD970403DB609E4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJJCutPhotos/YJJCutPhotos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJJCutPhotos/YJJCutPhotos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJJCutPhotos/YJJCutPhotos.modulemap";
+				PRODUCT_MODULE_NAME = YJJCutPhotos;
+				PRODUCT_NAME = YJJCutPhotos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2751383316ED5EF12D6DFDD4731025CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08F39B034807FED05E3F8D66CE96B2E4 /* Pods-YJJCutPhotos_Tests.release.xcconfig */;
@@ -476,38 +578,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2B7C79D262F7C57B6A46BD6FF31AF915 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D719AD7A28696A024C86391A5EC55B96 /* YJJCutPhotos.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YJJCutPhotos/YJJCutPhotos-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YJJCutPhotos/YJJCutPhotos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YJJCutPhotos/YJJCutPhotos.modulemap";
-				PRODUCT_MODULE_NAME = YJJCutPhotos;
-				PRODUCT_NAME = YJJCutPhotos;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -608,6 +678,22 @@
 			};
 			name = Release;
 		};
+		72EDDB2EE1C44786B3A5537B00209105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YJJCutPhotos";
+				INFOPLIST_FILE = "Target Support Files/YJJCutPhotos/ResourceBundle-YJJCutPhotos-YJJCutPhotos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YJJCutPhotos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -672,6 +758,22 @@
 			};
 			name = Debug;
 		};
+		8527B14AFE4E0D14B3B178CB907EA4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YJJCutPhotos";
+				INFOPLIST_FILE = "Target Support Files/YJJCutPhotos/ResourceBundle-YJJCutPhotos-YJJCutPhotos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YJJCutPhotos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		8EEEEB9B534AECEC77D67C2DF5C3BD77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52F25F5D1D68B902F4B5221CF7A24AAA /* Pods-YJJCutPhotos_Example.release.xcconfig */;
@@ -706,9 +808,9 @@
 			};
 			name = Release;
 		};
-		B5ADB62A23DF20EB41F28EF49CC35D52 /* Debug */ = {
+		9C6A2FE48BF22717B49A5B7E91909A34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D719AD7A28696A024C86391A5EC55B96 /* YJJCutPhotos.xcconfig */;
+			baseConfigurationReference = 72DF61D36BD5CBA1F8E798095C07D5E0 /* YJJCutPhotos.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -732,10 +834,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -758,11 +861,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF78B78FB59BDE540D04A9911ADC851A /* Build configuration list for PBXNativeTarget "YJJCutPhotos" */ = {
+		C8852B32E9F0380278294F554FFAC3A2 /* Build configuration list for PBXNativeTarget "YJJCutPhotos-YJJCutPhotos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5ADB62A23DF20EB41F28EF49CC35D52 /* Debug */,
-				2B7C79D262F7C57B6A46BD6FF31AF915 /* Release */,
+				72EDDB2EE1C44786B3A5537B00209105 /* Debug */,
+				8527B14AFE4E0D14B3B178CB907EA4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -772,6 +875,15 @@
 			buildConfigurations = (
 				0038276ED7A6B2A6971AF20D8AC6B603 /* Debug */,
 				2751383316ED5EF12D6DFDD4731025CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F710AD5950CB02D3BCAC300851C8B5EE /* Build configuration list for PBXNativeTarget "YJJCutPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036094688721B6FAD970403DB609E4CB /* Debug */,
+				9C6A2FE48BF22717B49A5B7E91909A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJJCutPhotos'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '一个简单易用的图片裁剪库.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YJJCutPhotos/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YJJCutPhotos' => ['YJJCutPhotos/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YJJCutPhotos' => ['YJJCutPhotos/Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit' ,'Foundation'
