@@ -1,0 +1,6 @@
+framework module Pods_YJJCutPhotos_Example {
+  umbrella header "Pods-YJJCutPhotos_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

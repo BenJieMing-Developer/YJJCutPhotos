@@ -1,0 +1,16 @@
+PODS:
+  - YJJCutPhotos (0.1.0)
+
+DEPENDENCIES:
+  - YJJCutPhotos (from `../`)
+
+EXTERNAL SOURCES:
+  YJJCutPhotos:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJJCutPhotos: c224736b1d880f389fa3f38c6f522aa89a41a537
+
+PODFILE CHECKSUM: bdaffcdbf1eb9ebf1228c96c6f8abab94f6b0a13
+
+COCOAPODS: 1.7.4

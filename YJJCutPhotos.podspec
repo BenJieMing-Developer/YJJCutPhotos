@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJJCutPhotos'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJJCutPhotos.'
+  s.summary          = '一个简单易用的图片裁剪库.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

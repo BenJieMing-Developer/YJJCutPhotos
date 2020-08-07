@@ -1,0 +1,6 @@
+framework module YJJCutPhotos {
+  umbrella header "YJJCutPhotos-umbrella.h"
+
+  export *
+  module * { export * }
+}
