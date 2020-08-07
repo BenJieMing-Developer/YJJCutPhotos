@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		346096C7927553C42B2770AE /* Pods_YJJCutPhotos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F95558F0729E9BAAEC183CF /* Pods_YJJCutPhotos_Example.framework */; };
+		346096C7927553C42B2770AE /* Pods_YJJCutPhotos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F95558F0729E9BAAEC183CF /* Pods_YJJCutPhotos_Example.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		44ED17E946645E6E31A4D6A6 /* Pods_YJJCutPhotos_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBD898D9F01CE1B5AF0DBD1 /* Pods_YJJCutPhotos_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0F95558F0729E9BAAEC183CF /* Pods_YJJCutPhotos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJJCutPhotos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D57F1CB24DD41F10079BA56 /* YJJCutPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YJJCutPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFFAC479B09ED7E9B9FF01C /* Pods-YJJCutPhotos_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJJCutPhotos_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJJCutPhotos_Tests/Pods-YJJCutPhotos_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		55D2855A9B35B00BEA474F67 /* YJJCutPhotos.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJJCutPhotos.podspec; path = ../YJJCutPhotos.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YJJCutPhotos_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJJCutPhotos_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D57F1CB24DD41F10079BA56 /* YJJCutPhotos.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -247,6 +249,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lj61661726;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8CBVF9WUR3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +499,7 @@
 			baseConfigurationReference = A5F7135B61C492B93116C071 /* Pods-YJJCutPhotos_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CBVF9WUR3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJJCutPhotos/YJJCutPhotos-Prefix.pch";
 				INFOPLIST_FILE = "YJJCutPhotos/YJJCutPhotos-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = EE847E4DFB1A4554D5F8EFB0 /* Pods-YJJCutPhotos_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8CBVF9WUR3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJJCutPhotos/YJJCutPhotos-Prefix.pch";
 				INFOPLIST_FILE = "YJJCutPhotos/YJJCutPhotos-Info.plist";

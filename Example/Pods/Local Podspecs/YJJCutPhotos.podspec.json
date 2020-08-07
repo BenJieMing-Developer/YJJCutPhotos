@@ -1,7 +1,7 @@
 {
   "name": "YJJCutPhotos",
   "version": "0.1.0",
-  "summary": "A short description of YJJCutPhotos.",
+  "summary": "一个简单易用的图片裁剪库.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lj61661726/YJJCutPhotos",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YJJCutPhotos/Classes/**/*"
+  "source_files": "YJJCutPhotos/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "Foundation"
+  ]
 }

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YJJCutImageView.h"
 
 FOUNDATION_EXPORT double YJJCutPhotosVersionNumber;
 FOUNDATION_EXPORT const unsigned char YJJCutPhotosVersionString[];
