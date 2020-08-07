@@ -22,7 +22,7 @@ pod 'YJJCutPhotos'
 
 ## Author
 
-lj61661726, 1573233985@qq.com
+yjj, 1573233985@qq.com
 
 ## License
 
